@@ -43,8 +43,8 @@
 
                 <div class="right-header">
                     <h1 class="name">
-                        Hi, I'm <span>Kanza Jovita</span> <br>
-                        a Web Developer
+                        Hi, I'm Kanza Jovita a<br>
+                        <span id="typewriter"></span>
                     </h1>
                     <p>
                         I'm a Web Developer who creates Unique Functional
@@ -82,15 +82,7 @@
                     <div class="left-about mb-5">
                         <h4>Information About Me</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Magnam sed distinctio, illum ipsam quidem
-                            dolores voluptate sit corrupti et deserunt hic
-                            reprehenderit repellat dolorem culpa corporis earum
-                            id eum quod? Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Molestias quo illum doloribus,
-                            pariatur sint quibusdam dolores minus eaque. Unde
-                            similique, natus at eaque facilis molestias quos
-                            dolor delectus voluptatum numquam!
+                            I am a software Engineering Student  at Refactory who is aspiring to be the best data scientist of my time and Currently I do web development using Django and React.
                         </p>
                         <div class="btn-con">
                             <a href="#" class="main-btn">
@@ -105,7 +97,7 @@
                     <div class="right-about">
                         <div class="about-item">
                             <div class="abt-text">
-                                <p class="large-text">560+</p>
+                                <p class="large-text">5+</p>
                                 <p class="small-text">
                                     Projects <br />
                                     Completed
@@ -114,23 +106,23 @@
                         </div>
                         <div class="about-item">
                             <div class="abt-text">
-                                <p class="large-text">10+</p>
+                                <p class="large-text">0.5+</p>
                                 <p class="small-text">
-                                    YEARS OF <br />
-                                    EXPERIENCE
+                                    Years of <br />
+                                    Experience
                                 </p>
                             </div>
                         </div>
-                        <div class="about-item">
+                        {% comment %} <div class="about-item">
                             <div class="abt-text">
-                                <p class="large-text">500+</p>
+                                <p class="large-text">50+</p>
                                 <p class="small-text">
                                     HAPPY <br />
                                     CLIENTS
                                 </p>
                             </div>
-                        </div>
-                        <div class="about-item">
+                        </div> {% endcomment %}
+                        {% comment %} <div class="about-item">
                             <div class="abt-text">
                                 <p class="large-text">400+</p>
                                 <p class="small-text">
@@ -138,7 +130,7 @@
                                     REVIEWS
                                 </p>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                     </div>
                 </div>
 
@@ -212,44 +204,80 @@
                             </div>
                         </div>
                     </div>
+
+                    {% comment %} Soft skills {% endcomment %}
+                    <div class="soft-skills mt-5">
+                        <h4 class="stat-title">Soft Skills</h4>
+                        <div class="skill">
+                            <span>Communication</span>
+                            <div class="sprogress-bar"><div class="sprogress" style="width: 95%; background-color: #000;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Team Work</span>
+                            <div class="sprogress-bar"><div class="sprogress" style="width: 90%; background-color: red;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Problem Solving</span>
+                            <div class="sprogress-bar"><div class="sprogress" style="width: 80%; background-color: aqua;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Critical Thinking </span>
+                            <div class="sprogress-bar"><div class="sprogress" style="width: 80%; background-color: orange;"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span>Time Management </span>
+                            <div class="sprogress-bar"><div class="sprogress" style="width: 95%;"></div></div>
+                        </div>
+
+                        
+                    </div>
                 </div>
 
                 {% comment %} Timeline {% endcomment %}
-                <h4 class="stat-title">My Timeline</h4>
+                <h4 class="stat-title">Services</h4>
                 <div class="timeline ">
-                    
-
-                    
 
                         <div class="timeline-item ">
                             <div class="timeline-icon">
-                                <i class="fas fa-briefcase"></i>
+                                <i class="fa-solid fa-code"></i>
                             </div>
-                            <p class="tl-duration">2010-present</p>
-                            <h5>Web Developer <span> - Microsoft</span></h5>
+                            {% comment %} <p class="tl-duration">2010-present</p> {% endcomment %}
+                            <h5>Web Development <span> </span></h5>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit. Similique recusandae unde excepturi cumque
-                                facere esse voluptas repellat dolorum totam
-                                veritatis, molestiae delectus possimus est
-                                laboriosam ducimus neque dolorem voluptatum
-                                asperiores.
+                                Explore the world of web development with expertise in HTML, CSS, and JavaScript. From building responsive layouts to interactive web applications, I bring your ideas to life on the digital canvas
                             </p>
                         </div>
 
                         <div class="timeline-item">
                             <div class="timeline-icon">
-                                <i class="fas fa-briefcase"></i>
+                                <i class="fa-solid fa-chart-pie"></i>
                             </div>
-                            <p class="tl-duration">2010-present</p>
-                            <h5>Web Developer <span>- Microsoft</span></h5>
+                            {% comment %} <p class="tl-duration">2010-present</p> {% endcomment %}
+                            <h5>Data Analysis <span> </span></h5>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit. Similique recusandae unde excepturi cumque
-                                facere esse voluptas repellat dolorum totam
-                                veritatis, molestiae delectus possimus est
-                                laboriosam ducimus neque dolorem voluptatum
-                                asperiores.
+                                Unlock valuable insights from your data with expertise in statistical analysis and predictive modeling. From exploratory data analysis to developing actionable recommendations.
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            {% comment %} <p class="tl-duration">2010-present</p> {% endcomment %}
+                            <h5>Database Design & Management <span> </span></h5>
+                            <p>
+                                Unlock valuable insights from your data with expertise in statistical analysis and predictive modeling. From exploratory data analysis to developing actionable recommendations.
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            {% comment %} <p class="tl-duration">2010-present</p> {% endcomment %}
+                            <h5>DevOps <span> </span></h5>
+                            <p>
+                                Unlock valuable insights from your data with expertise in statistical analysis and predictive modeling. From exploratory data analysis to developing actionable recommendations.
                             </p>
                         </div>
                     </div>
@@ -439,62 +467,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="blog">
-                            <img src="{% static './images/blog1.jpg' %}" alt="blog1" />
-                            <div class="blog-text">
-                                <h4>How to Create A Website</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Laborum dolore vero omnis
-                                    suscipit impedit ex quaerat commodi
-                                    perspiciatis corporis quos quibusdam harum
-                                    rerum qui, nam mollitia quia labore,
-                                    voluptatum ea!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="blog">
-                            <img src="{% static './images/blog3.jpg' %}" alt="blog1" />
-                            <div class="blog-text">
-                                <h4>How to Create A Website</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Laborum dolore vero omnis
-                                    suscipit impedit ex quaerat commodi
-                                    perspiciatis corporis quos quibusdam harum
-                                    rerum qui, nam mollitia quia labore,
-                                    voluptatum ea!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="blog">
-                            <img src="{% static './images/blog1.jpg' %}" alt="blog1" />
-                            <div class="blog-text">
-                                <h4>How to Create A Website</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Laborum dolore vero omnis
-                                    suscipit impedit ex quaerat commodi
-                                    perspiciatis corporis quos quibusdam harum
-                                    rerum qui, nam mollitia quia labore,
-                                    voluptatum ea!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="blog">
-                            <img src="{% static './images/blog2.jpg' %}" alt="blog1" />
-                            <div class="blog-text">
-                                <h4>How to Create A Website</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Laborum dolore vero omnis
-                                    suscipit impedit ex quaerat commodi
-                                    perspiciatis corporis quos quibusdam harum
-                                    rerum qui, nam mollitia quia labore,
-                                    voluptatum ea!
-                                </p>
-                            </div>
-                        </div>
+
+                    
                     </div>
                 </div>
             </section>
@@ -582,13 +556,13 @@
                                         required
                                     />
                                 </div>
-                                <div class="input-control">
+                                {% comment %} <div class="input-control">
                                     <input
                                         type="text"
                                         required
                                         placeholder="ENTER SUBJECT"
                                     />
-                                </div>
+                                </div> {% endcomment %}
                                 <div class="input-control">
                                     <textarea
                                         name="inputtext"
@@ -605,7 +579,7 @@
                                         >
                                         <span class="btn-icon"
                                             >
-                                            <i class="fa fa-send" aria-hidden="true"></i>
+                                            <i class="fa fa-aero" aria-hidden="true"></i>
                                     </span>
                                     </a>
                                 </div>
@@ -644,8 +618,6 @@
         </div>
 
         <script src="{% static 'js/main.js' %}"></script>
+        <script src="{% static 'js/typewritter.js' %}"></script>
     </body>
 </html>
-
-
-
