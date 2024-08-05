@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const typewriterElement = document.getElementById("typewriter");
-    const roles = ["Web Developer", "Data Analyst", "Software Engineer"];
+    const roles = ["Software Engineer","Web Developer", "and", "Data Analyst"];
     let roleIndex = 0;
     let charIndex = 0;
     let typingForward = true;
