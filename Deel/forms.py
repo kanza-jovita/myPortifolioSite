@@ -1,12 +1,7 @@
-from django.forms import ModelForm
-from .models import *
+from django import forms
+from .models import Contact  
 
-#create a new model here
-class ContactForm(ModelForm):
+class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
         fields = '__all__'
-
-
-
-
